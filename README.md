@@ -1,4 +1,4 @@
-# Entrada Livre (projeto Aura)
+# Entrada Livre
 
 App Android (Kotlin + Jetpack Compose) para encontrar estabelecimentos com **acessibilidade verificada pela comunidade**.
 As telas seguem o Figma [Acessibilidade](https://www.figma.com/design/L4Opg4SjZlcKVHrNlampOm/Acessibilidade).
@@ -20,7 +20,7 @@ O botão de acessibilidade do header abre ajustes de **alto contraste (tema escu
 
 ## Arquitetura (Clean Architecture + MVVM)
 ```
-app/src/main/java/com/example/aura/
+app/src/main/java/com/example/entradalivres/
   di/                     # AppContainer (DI manual)
   core/                   # BaseViewModel, ResultWrapper, UiEvent, OnResumeEffect...
   domain/

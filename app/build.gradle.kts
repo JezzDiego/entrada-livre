@@ -7,13 +7,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.aura"
+    namespace = "com.example.entradalivres"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.example.aura"
+        applicationId = "com.example.entradalivres"
         minSdk = 31
         targetSdk = 36
         versionCode = 1
